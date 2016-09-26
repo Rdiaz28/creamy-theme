@@ -1,67 +1,73 @@
 
 /*------------menu de navegacion-----------*/
-div .navbar-header a {
-    color:#FAD87E;
 
-}
 nav.navbar ul.nav li a {
-    color:#FAD87E;
+	color:#FAD87E;
 }
 nav.navbar {
-    background-color: #CC1414;
+	background-color: #CC1414;
 }
 
+img{
+	max-width: 100%;
+	height:auto;
+}
+h1,h2{
+	font-family: 'Merriweather', serif;
+
+}
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*------------foto central----------*/
+.altura{
+	height: 470px;
+}
 
 .img-fondo{
 	text-align: center;
 	color: #FAD87E;
-	background-color: rgb(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
+	height: 500px;
+	width: 100%;
+	padding-top:200px;
+	position: relative;
 }
 .imgback{
 	background-image: url(../img/creamy.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
-   	height: 500px;
+	height: 500px;
 	width: 100%;
-	padding-top:200px;
+	position: relative;
+	top:-22px;
+}
 
-}
-/*---------------primer parrafo ---------------*/
-img{
-	max-width: 100%;
-	height:auto;
-}
-.fondo1{
+
+
+/*---------------parrafos ---------------*/
+.fd1{
 	text-align: center;
 	color:#CC1414;
 	background-color: #FAD87E;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	padding-left: 20px;
-	padding-right: 20px;
-	margin-left: 0px;
-	margin-right: 0px;
 }
-.fondo2{
+.fd2{
 	text-align: center;
 	color:#FAD87E;
 	background-color:#CC1414 ;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-left: 0px;
-	margin-right: 0px;
 }
-.fondo3{
-	text-align: center;
-	color:#CC1414;
-	background-color: #FAD87E;
+
+.fondo{
+	
 	padding-top: 40px;
 	padding-bottom: 40px;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-left: 0px;
 	margin-right: 0px;
-	}
+}
+/*------------footer----------*/
 .footer{
 	height: 50px;
 	color: #FAD87E;
